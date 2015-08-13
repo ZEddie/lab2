@@ -9,7 +9,7 @@ CC       :=$(TARGET)-gcc
 LD       :=$(TARGET)-gcc
 EM       :=qemu-system-i386
 ASFLAGS  := 
-CFLAGS   := -std=gnu99 -ffreestanding -O2 -Wall  -Wextra -nostdlib -lgcc -I../ -MD -DDEBUG
+CFLAGS   := -std=gnu99 -ffreestanding -O2 -Wall  -Wextra -nostdlib -lgcc -I../ -DDEBUG
 LDFLAGS  :=-ffreestanding -O2 -nostdlib -lgcc
 
 
